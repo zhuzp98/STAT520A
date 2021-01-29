@@ -1,0 +1,23 @@
+---
+title: "Exercise set 2"
+output:
+  html_document:
+    theme: spacelab
+    toc: no
+    df_print: paged
+  pdf_document: default
+urlcolor: BrickRed
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercise 1
+According to the density plot for intercept and slope, both parameters have only one spike in their plots. That means they tend to have a single estimated value. Therefore, this model leans towards supporting a constant or linear function in the likelihood. 
+
+# Exercise 2
+With the new prior distribution, the density plots of intercept and slope change. Both plots tend to be flat and the spike of the probability density become wider. Therefore, the credible intervals for both parameters become larger and such a model provides less support towards a constant or linear function in the likelihood. 
+
+# Exercise 3
+I would like to adjust the variance of the prior distribution smaller, such as 0.001. Since with a smaller variance, we will reduce the occurrence of constant when estimating the intercept and slope values.  

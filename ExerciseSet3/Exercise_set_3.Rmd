@@ -1,0 +1,30 @@
+---
+title: "Exercise Set 3"
+output:
+  html_document:
+    theme: spacelab
+    toc: no
+    df_print: paged
+  pdf_document: default
+urlcolor: BrickRed
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercise 1
+When $\mu = 0.5$, I get the credible interval as $(0.00086373314343105,0.452371514565394)$.
+
+When $\mu = 0.1$, I get the credible interval as
+$(2.20578504541744e-09,0.122590935179599)$
+
+# Exercise 2
+Because there are irrugular data points in the sample set.
+For example, one type of rocket may only have 2 lauches in total but 1 or 2 of them are failure. Then such extreme situation will be expressed through the MLE approach. 
+
+# Exercise 3
+When $\mu = 0.5$, I get the credible interval as $(8.7126566008768e-07,0.194312058356585)$.
+
+When $\mu = 0.1$, I get the credible interval as
+$(6.59781036995842e-07,0.191303934387083)$
